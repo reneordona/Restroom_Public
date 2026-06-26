@@ -128,7 +128,7 @@
   }
 
   .rule-line {
-    width: 5vw; height: 0.18vw;
+    width: 5vw; height: 0vw;
     background: linear-gradient(90deg, var(--cyan) 0%, transparent 100%);
     border-radius: 1vw;
     animation: fadeUp 0.6s 0.22s both cubic-bezier(0.22,1,0.36,1);
@@ -361,8 +361,8 @@
       eyebrowLabel.textContent = 'Facilities Notice';
       headline.innerHTML = 'Lobby Restrooms<br><em>Temporarily Closed</em>';
       podbLabel.textContent = 'Restrooms Are Open In';
-      podbBody.innerHTML = 'Please use the restrooms in <strong>Pod B</strong>';
-      podbSub.textContent = 'The lobby restrooms are closed. Pod B restrooms are open for your use.';
+      podbBody.innerHTML = 'Please use the restrooms on the <strong>Second Floor</strong> or in <strong>Pod B</strong>';
+      podbSub.textContent = 'The lobby restrooms are closed. Second Floor or Pod B restrooms are open for your use.';
     } else {
       eyebrowLabel.textContent = 'Upcoming Facilities Notice';
       headline.innerHTML = 'Lobby Restrooms<br><em>Will Be Temporarily Closed</em>';
