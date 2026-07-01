@@ -304,12 +304,12 @@
     <div class="date-row">
       <div class="date-card start">
         <div class="dc-label">Restrooms Close</div>
-        <div class="dc-value">Friday, June 26, 2026</div>
+        <div class="dc-value">Monday, July 6, 2026</div>
         <div class="dc-sub">Lobby men's &amp; women's restrooms — closed for renovation</div>
       </div>
       <div class="date-card end">
         <div class="dc-label">Expected to Reopen</div>
-        <div class="dc-value">Friday, August 7, 2026</div>
+        <div class="dc-value">Friday, August 14, 2026</div>
         <div class="dc-sub">Date may change</div>
       </div>
     </div>
@@ -322,7 +322,7 @@
       <div class="podb-text">
         <div class="podb-label" id="podb-label">Restrooms Available At</div>
         <div class="podb-body" id="podb-body">Restrooms are located in <strong>Pod B</strong></div>
-        <div class="podb-sub" id="podb-sub">The lobby restrooms are undergoing renovation and will be temporarily closed starting June 26.</div>
+        <div class="podb-sub" id="podb-sub">The lobby restrooms are undergoing renovation and will be temporarily closed starting July 6.</div>
         <div class="podb-ask">
           <div class="podb-ask-icon">
             <svg viewBox="0 0 24 24"><path d="M8 9h8"/><path d="M8 13h6"/><path d="M18 4a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-5l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12z"/></svg>
@@ -345,7 +345,7 @@
 </div>
 
 <script>
-  const RENOVATION_START = new Date('2026-06-26T00:00:00');
+  const RENOVATION_START = new Date('2026-07-06T00:00:00');
 
   function applyState() {
     const now = new Date();
@@ -366,9 +366,9 @@
     } else {
       eyebrowLabel.textContent = 'Upcoming Facilities Notice';
       headline.innerHTML = 'Lobby Restrooms<br><em>Will Be Temporarily Closed</em>';
-      podbLabel.textContent = 'Starting June 26';
+      podbLabel.textContent = 'Starting July 6';
       podbBody.innerHTML = 'Please use the restrooms on the <strong>Second Floor</strong> or in <strong>Pod B</strong>';
-      podbSub.textContent = 'The lobby restrooms will be closed starting June 26. Pod B restrooms will be available.';
+      podbSub.textContent = 'The lobby restrooms will be closed starting July 6. Pod B restrooms will be available.';
     }
   }
 
